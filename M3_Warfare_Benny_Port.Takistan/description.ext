@@ -1,0 +1,39 @@
+//--- Respawn options.
+respawn = 3;
+respawnDelay = WF_RESPAWNDELAY;
+respawnDialog = false;
+
+//--- Require briefing.html to show up.
+onLoadMission = WF_MISSIONNAME;
+onLoadMissionTime = false;
+
+joinUnassigned = 0;//false;
+
+//--- Properties.
+class Header {
+	gameType = CTI;
+	minPlayers = 1;
+	maxPlayers = WF_MAXPLAYERS;
+};
+
+//--- Parameters
+class Params {
+	class townsStartMode {
+		title = "$STR_WF_PARAMETER_StartingMode";
+		values[] = {0,1,2,3};
+		texts[] = {"$STR_WF_PARAMETER_None","$STR_WF_PARAMETER_Divided_Towns","$STR_WF_PARAMETER_Nearby_Town","$STR_WF_PARAMETER_StartingLocations_Random"};
+		default = 1;
+	};
+	class townsAmount {
+		title = "$STR_WF_PARAMETER_TownsAmount";
+		values[] = {0,1,2,3,4};
+		texts[] = {"$STR_WF_PARAMETER_Extra_Small","$STR_WF_PARAMETER_Small","$STR_WF_PARAMETER_Medium","$STR_WF_PARAMETER_Large","$STR_WF_PARAMETER_Full"};
+		default = 2;
+	};
+	class townsCamps {
+		title = "$STR_WF_PARAMETER_TownsCamps";
+		values[] = {0,1};
+		texts[] = {"$STR_WF_Disabled","$STR_WF_Enabled"};
+		default = 1;
+	};
+};
