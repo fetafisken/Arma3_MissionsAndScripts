@@ -1,5 +1,0 @@
-#include "configs\CfgPatches.cpp"
-#include "configs\CfgFactionClasses.cpp"
-#include "configs\CfgVehicles.cpp"
-#include "configs\CfgFunctions.cpp"
-#include "configs\CfgRespawnTemplates.cpp"

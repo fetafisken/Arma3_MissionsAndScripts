@@ -1,8 +1,0 @@
-//#include "M3_BaseGameSettings\config.cpp"
-
-respawnTemplatesWest[] = {"MenuPosition", "Tickets"};
-
-respawn = 3;
-respawnDelay = 1;
-respawnOnStart = 1;
-respawnButton = 1;

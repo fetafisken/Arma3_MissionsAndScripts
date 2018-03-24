@@ -1,1 +1,0 @@
-***Contains missions that I have created and are working on for Arma 3***
